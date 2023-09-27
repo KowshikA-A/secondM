@@ -4,163 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BS Task 4</title>
+    <title>Task-2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        .card {
-            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-        }
-        
-        .card {
-            margin-top: 10px;
-            box-sizing: border-box;
-            border-radius: 2px;
-            background-clip: padding-box;
-            min-height: 550px;
-            transition: transform 0.3s ease;
-            width: 10px;
-        }
-        
-        .card:hover img {
-            transform: translateY(10px);
-            transition: transform 0.3s ease;
-        }
-        
-        .card span.card-title {
-            color: #fff;
-            font-size: 24px;
-            font-weight: 300;
-            text-transform: uppercase;
-        }
-        
-        .card .card-image {
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .card .card-image img {
-            border-radius: 2px 2px 0 0;
-            background-clip: padding-box;
-            position: relative;
-            z-index: -1;
-        }
-        
-        .card .card-image span.card-title {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            padding: 16px;
-        }
-        
-        .card .card-content {
-            padding: 16px;
-            border-radius: 0 0 2px 2px;
-            background-clip: padding-box;
-            box-sizing: border-box;
-        }
-        
-        .card .card-content p {
-            margin: 0;
-            color: inherit;
-        }
-        
-        .card .card-content span.card-title {
-            line-height: 48px;
-        }
-        
-        .card .card-action {
-            border-top: 1px solid rgba(160, 160, 160, 0.2);
-            padding: 16px;
-        }
-        
-        .card .card-action a {
-            color: #ffab40;
-            margin-right: 16px;
-            transition: color 0.3s ease;
-            text-transform: uppercase;
-        }
-        
-        .card .card-action a:hover {
-            color: #ffd8a6;
-            text-decoration: none;
-        }
-        
-        .empty-space {
-            margin-top: 200px;
+        nav {
+            position: sticky !important;
+            top: 0px !important;
+            z-index: 100;
+            background-color: #ffc107;
         }
     </style>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 </head>
 
 <body>
-    <div class="row text-justify">
-        <div class="card col-2 m-5 border border-dark p-0" style="
-        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);">
-            <img src="materialcards2.png" alt="img" />
-            <div class="card-body">
-                <h3 class="card-title"></h3>
-                <p class="card-text" style="font-size:x-large">
-                    Cards for display in portfolio style material design by Google.
-                </p>
-                <hr/>
-                <div class="card-action">
-                    <a src="https://vitap.ac.in/" style="color:orange;">Link </a>
-                    <a src="https://vitap.ac.in/" style="color:orange;">Link </a>
+    <nav class="navbar bg-warning pb-0">
+        <div class="container ">
+            <div class="row">
+                <div class="text-dark fw-bold display-4 text-start col-md-2 pt-0">Builderz</div>
+                <div class="col-md-2"></div>
+                <div class="text-dark col-md-1 m-0 pe-0"><img src="open_hours.png" alt="description" style="width: 100%; height:70%;"></div>
+                <div class="col-2 m-0 ps-0">Opening Hour <br>Mon-Fri,8:00-9:00</div>
+                <div class="text-dark col-md-1 m-0 pe-0"><img src="telephone1.png" alt="description" style="width: 70%; height:70%;"></div>
+                <div class="col-1 m-0 p-0 ps-0 pe-0 me-4">Call Us <br>+012 345 6789</div>
+                <div class="text-dark col-md-1 m-0 ps-4 pe-0"><img src="email.png" alt="description" style="width: 70%; height:70%;"></div>
+                <div class="col-1 m-0 ps-0 pe-0 ms-0" .>Email Us <br>info@example.com</div>
+            </div>
+
+            <div class=" row bg-dark py-3  ms-0">
+                <div class="nav">
+                    <a href="#" class="text-warning  px-3  nav-link">HOME</a>
+                    <a href="#" class="text-light pe-3 nav-link">ABOUT</a>
+                    <a href="#" class="text-light pe-3 nav-link">SERVICE</a>
+                    <a href="#" class="text-light pe-3 nav-link">TEAM</a>
+                    <a href="#" class="text-light pe-3 nav-link">PROJECT</a>
+                    <a href="#" class="text-light pe-3 nav-link">PAGES <select class="bg-dark text-light p-0 " style="border: none;"></select></a>
+                    <a href="#" class="text-light pe-2 nav-link">CONTACT</a>
+
+                    <a style="padding-left: 570px;"></a>
+
+                    <a><button class="button-outlier bg-dark text-light px-2 py-1" type="button">Get A Quote</button></a>
                 </div>
-                <div class="empty-space"></div>
+
+
+
+
+            </div>
+    </nav>
+    <main>
+        <div class="row">
+            <div class="col-md-12">
+                <img src="project.jpg" alt="description" class="img-fluid" style="width: 100%; height: 100%;">
+                <div style="position: absolute; text-align: center; top: 50%; left: 25%;">
+                    <h2 class="display-5  text-dark"> We Are Professional</h2>
+                    <h1 class="display-2 fw-bold text-dark"> For Your Dream Project</h1><br>
+                    <a href="#" style="text-decoration: none; border: 2px solid black; " class="text-dark p-2 ">Get A Quote</a>
+                </div>
             </div>
         </div>
-        <div class="card col-2 m-5 border border-dark p-0">
-            <img src="materialcards1.png" alt="img" />
-            <div class="card-body">
-                <h3 class="card-title"></h3>
-                <p class="card-text" style="font-size:x-large">
-                    Cards for display in portfolio style material design by Google.
-                </p>
-                <hr />
-                <div class="card-action">
-                    <a src="https://vitap.ac.in/" style="color:orange;">Link </a>
-                    <a src="https://vitap.ac.in/" style="color:orange;">Link </a>
-                </div>
-                <div class="empty-space"></div>
-            </div>
+    </main>
+
+    <footer>
+        <div class="row ">
+            <div class="text-warning col-md-2 bg-dark my-0 py-0"><img src="human face.png" alt="description" style="width: 100%; height:100%;"></div>
+            <div class="col-md-2 bg-dark text-warning " style="padding-bottom: 0%; padding-top: 5%; padding-left: 0% ; padding-right: 5%;">
+                <div class="fw-bold pb-2">Expert Worker</div>Lorem ipsum dolar sit amet elit. phasuc nec pretim ornare velit non</div>
+            <div class="text-warning col-md-2 bg-warning "><img src="building.png" alt="description" style="width: 100%; height:100%;"></div>
+            <div class="col-md-2 bg-warning " style="padding-bottom: 0%; padding-top: 5%; padding-left: 0% ; padding-right: 5%;">
+                <div class="fw-bold pb-2">Quality Work</div>Lorem ipsum dolar sit amet elit. phasuc nec pretim ornare velit non</div>
+            <div class="text-warning col-md-2 bg-dark" style="padding-left: 3%;"><img src="24 hours calling.png" alt="description" style="width: 80%; height:80%; padding-top: 30%;"></div>
+            <div class="col-md-2 bg-dark text-warning " style="padding-bottom: 0%; padding-top: 5%; padding-left: 0% ; padding-right: 5%;">
+                <div class="fw-bold pb-2">24/7 Support</div>Lorem ipsum dolar sit amet elit. phasuc nec pretim ornare velit non</div>
         </div>
 
-        <div class="card col-2 m-5 border border-dark p-0">
-            <img src="materialcards1.png" alt="img" />
-            <div class="card-body">
+    </footer>
 
-                <h3 class="card-title"></h3>
-                <p class="card-text" style="font-size:x-large">
-                    Cards for display in portfolio style material design by Google.
-                </p>
-                <hr />
-                <div class="card-action">
-                    <a src="https://vitap.ac.in/" style="color:orange;">Link </a>
-                    <a src="https://vitap.ac.in/" style="color:orange;">Link </a>
-                </div>
-                <div class="empty-space"></div>
-                <!-- Empty space below links -->
-            </div>
-        </div>
-
-        <div class="card col-2 m-5 border border-dark p-0">
-            <img src="materialcards1.png" alt="img" />
-            <div class="card-body">
-                <h3 class="card-title"></h3>
-                <p class="card-text" style="font-size:x-large">
-                    Cards for display in portfolio style material design by Google.
-                </p>
-                <hr />
-                <div class="card-action">
-                    <a src="https://vitap.ac.in/" style="color:orange;">Link </a>
-                    <a src="https://vitap.ac.in/" style="color:orange;">Link </a>
-                </div>
-                <div class="empty-space"></div>
-                <!-- Empty space below links -->
-            </div>
-        </div>
-    </div>
 </body>
 
 </html>
